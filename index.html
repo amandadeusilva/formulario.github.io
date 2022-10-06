@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css"/>
+    <title>Formulário</title>
+</head>
+<body>
+<main class="container">
+    <form action="pagina/formulario" method="post">
+    <div class="titulo">
+        Preencha com suas informações pessoais
+    </div>
+
+    <div class="inputDados">
+        <label>
+            Nome<br>
+            <input class="inputNome" type="text" name="nome" placeholder="Seu nome completo">
+        </label>
+
+        <div class="dados">
+        <label>
+            CPF<br>
+            <input type="text" name="cpf"placeholder="000.000.000-00">
+        </label>
+
+        <label>
+            Data de nascimento<br>
+            <input type="date" name="data_nascimento">
+        </label>
+
+        <label class="sexo">
+            Sexo<br>
+            <input type="radio" name="sexo">Feminino
+            <input type="radio" name="sexo">Masculino
+        </label>
+
+        </div>
+
+        <div class="dados2">
+
+        <label>
+            Estado Civil<br>
+            <select name="estado_civil">
+                <option value="solteiro(a)">Solteiro(a)</option>
+                <option value="casado(a)">Casado(a)</option>
+                <option value="divorciado(a)">Divorciado(a)</option>
+
+            </select>
+        </label>
+
+        <label>
+            Renda mensal<br>
+            <input type="text" name="renda_mensal"placeholder="0,00">
+        </label>
+
+        </div>
+        <div class="endereco">
+            Endereço
+        </div>
+    </div>
+
+    <div class="inputDados">
+        <div class="dados">
+        <label>
+            Logradouro<br>
+            <input type="text" name="logradouro"placeholder="Logradouro">
+        </label>
+
+        <label>
+            Número<br>
+            <input type="number" name="numero"placeholder="N°">
+        </label>
+
+        <label>
+            Complemento<br>
+            <input type="text" name="complemento"placeholder="Complemento">
+        </label>
+
+    </div>
+    <div class="dados2">
+        <label>
+            Estado<br>
+            <select name="select">
+                <option value="outro">Outro </option>
+                <option value="mg">Minas Gerais </option>
+                <option value="sp">São Paulo </option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="go">Goiás </option>
+            </select>
+        </label>
+
+        <label>
+            Cidade<br>
+            <input type="text" name="cidade"placeholder="Cidade">
+        </label>
+
+        </div>
+
+        <button>Enviar</button>
+    </form>
+
+</main>
+</body>
+</html>

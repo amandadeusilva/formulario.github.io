@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label{
+    display: block;
+    padding: 10px;
+}
+
+body{
+    background-color: #C0C0C0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+[type="radio"] { 
+    margin-right: 15px;
+    margin-left: 5px;
+  }
+
+.titulo{
+    background-color: #1C1C1C;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.inputDados{
+    background-color: #ffffff;
+}
+
+input{
+    margin-top: 8px;
+    outline: 0;
+    font-size: 18px;
+    padding: 8px;
+    color: #1C1C1C;
+    
+}
+
+input[type=date]{
+    font-size: 16px;
+}
+
+
+.inputNome{
+    width: 100%;
+}
+
+input[type=radio]{
+    padding:10px;
+}
+
+.dados{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.dados2{
+    display: flex;
+
+    
+}
+
+.endereco{
+    padding: 13px;
+    margin-top: 5px;
+}
+
+::placeholder{
+    color:#a09b9b;
+    font-size: 12px;
+}
+
+select{
+    padding: 11px;
+    margin-top: 9px;
+    color:#524e4e;
+}
+
+button{
+    margin-left: 12px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #a09b9b;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #c9c3c3;
+    
+}
+
+button:hover{
+    background-color:#777474 ;
+}
+
+@media(max-width:600px) { 
+    .container, .dados, .dados2{
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+
+}
+
